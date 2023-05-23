@@ -5,7 +5,7 @@ include('./includes/header.html');
 <div class="login-box">
     <form method="POST" action="MainPage.php">
         <div class="user-box"><input type="text" name="username" value="<?php if (isset($_POST['username'])) echo $_POST['username']; ?>" required="">
-            <label>ID</label>
+    <label>Username</label>
         </div>
         <div class="user-box">
             <input type="password" name="password" required="">
